@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA7193A82B11567800C08D08 /* vista2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7193A72B11567800C08D08 /* vista2.swift */; };
+		BA7193AA2B11568C00C08D08 /* TabViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7193A92B11568C00C08D08 /* TabViewMain.swift */; };
+		BA9FC2E72B10690F00F0E289 /* SegundaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC2E62B10690F00F0E289 /* SegundaVista.swift */; };
+		BA9FC2E92B106A0F00F0E289 /* TerceraVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC2E82B106A0F00F0E289 /* TerceraVista.swift */; };
 		BAFCE50C2B0FFFAE00672E2F /* NavegacionSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCE50B2B0FFFAE00672E2F /* NavegacionSwiftUIApp.swift */; };
 		BAFCE50E2B0FFFAE00672E2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCE50D2B0FFFAE00672E2F /* ContentView.swift */; };
 		BAFCE5102B0FFFB000672E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFCE50F2B0FFFB000672E2F /* Assets.xcassets */; };
@@ -14,6 +18,7 @@
 		BAFCE51D2B0FFFB000672E2F /* NavegacionSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCE51C2B0FFFB000672E2F /* NavegacionSwiftUITests.swift */; };
 		BAFCE5272B0FFFB000672E2F /* NavegacionSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCE5262B0FFFB000672E2F /* NavegacionSwiftUIUITests.swift */; };
 		BAFCE5292B0FFFB000672E2F /* NavegacionSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCE5282B0FFFB000672E2F /* NavegacionSwiftUIUITestsLaunchTests.swift */; };
+		BAFCE5382B1000B200672E2F /* VentanaModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCE5372B1000B200672E2F /* VentanaModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA7193A72B11567800C08D08 /* vista2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vista2.swift; sourceTree = "<group>"; };
+		BA7193A92B11568C00C08D08 /* TabViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMain.swift; sourceTree = "<group>"; };
+		BA9FC2E62B10690F00F0E289 /* SegundaVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaVista.swift; sourceTree = "<group>"; };
+		BA9FC2E82B106A0F00F0E289 /* TerceraVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerceraVista.swift; sourceTree = "<group>"; };
 		BAFCE5082B0FFFAE00672E2F /* NavegacionSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavegacionSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCE50B2B0FFFAE00672E2F /* NavegacionSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacionSwiftUIApp.swift; sourceTree = "<group>"; };
 		BAFCE50D2B0FFFAE00672E2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,7 @@
 		BAFCE5222B0FFFB000672E2F /* NavegacionSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavegacionSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCE5262B0FFFB000672E2F /* NavegacionSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacionSwiftUIUITests.swift; sourceTree = "<group>"; };
 		BAFCE5282B0FFFB000672E2F /* NavegacionSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacionSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAFCE5372B1000B200672E2F /* VentanaModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentanaModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,11 @@
 				BAFCE50D2B0FFFAE00672E2F /* ContentView.swift */,
 				BAFCE50F2B0FFFB000672E2F /* Assets.xcassets */,
 				BAFCE5112B0FFFB000672E2F /* Preview Content */,
+				BAFCE5372B1000B200672E2F /* VentanaModal.swift */,
+				BA9FC2E62B10690F00F0E289 /* SegundaVista.swift */,
+				BA9FC2E82B106A0F00F0E289 /* TerceraVista.swift */,
+				BA7193A72B11567800C08D08 /* vista2.swift */,
+				BA7193A92B11568C00C08D08 /* TabViewMain.swift */,
 			);
 			path = NavegacionSwiftUI;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7193A82B11567800C08D08 /* vista2.swift in Sources */,
 				BAFCE50E2B0FFFAE00672E2F /* ContentView.swift in Sources */,
+				BAFCE5382B1000B200672E2F /* VentanaModal.swift in Sources */,
 				BAFCE50C2B0FFFAE00672E2F /* NavegacionSwiftUIApp.swift in Sources */,
+				BA9FC2E92B106A0F00F0E289 /* TerceraVista.swift in Sources */,
+				BA9FC2E72B10690F00F0E289 /* SegundaVista.swift in Sources */,
+				BA7193AA2B11568C00C08D08 /* TabViewMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
